@@ -2,12 +2,11 @@
 
 class Solution {
     public int[] sortedSquares(int[] nums) {
-        
         int[] res = new int[nums.length];
         int n = nums.length - 1;
         
         int start = 0;
-        int end = nums.length - 1;
+        int end = n;
         
         while (start <= end) {
             if (Math.abs(nums[start]) >= Math.abs(nums[end]))

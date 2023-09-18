@@ -2,8 +2,8 @@
 
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
-        int[] res = new int[2];
-        int i = 0, j = numbers.length-1;
+        int n = numbers.length;
+        int i = 0, j = n-1;
 
         while (i < j) {
             int sum = numbers[i] + numbers[j];

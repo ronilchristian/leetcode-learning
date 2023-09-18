@@ -1,9 +1,12 @@
+// 3Sum Closest
+
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
+        int n = nums.length;
+
         // sort array
         Arrays.sort(nums);
 
-        int n = nums.length;
         int closest = Integer.MAX_VALUE;
         int minDiff = Integer.MAX_VALUE;
 

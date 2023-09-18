@@ -1,9 +1,9 @@
+// 3Sum
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        // base case
         List<List<Integer>> res = new LinkedList<>();
         int n = nums.length;
-        if (n < 3) return res;
 
         // sort array
         Arrays.sort(nums);
