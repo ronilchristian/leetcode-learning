@@ -3,7 +3,7 @@
 import java.util.*;
 
 class Solution {
-    public int lengthOfLongestSubstringTwoDistinct(String s, int k) {
+    public int lengthOfLongestSubstringAtMostKDistinct(String s, int k) {
         // base case
         if (k == 0) return 0;
         
