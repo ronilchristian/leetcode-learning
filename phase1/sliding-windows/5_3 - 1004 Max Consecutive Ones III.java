@@ -14,7 +14,7 @@ class Solution {
                 if (nums[start] == 0)
                     count--;
                 start++;
-        }
+            }
 
         maxLen = Math.max(maxLen, end - start + 1);
 
