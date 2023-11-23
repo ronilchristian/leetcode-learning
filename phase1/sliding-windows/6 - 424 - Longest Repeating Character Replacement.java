@@ -16,7 +16,7 @@ class Solution {
             mostFreq = Math.max(mostFreq, hm.get(arr[end]));
 
             // shrink the window if we need to replace more than k characters
-            if ((end - start + 1) - mostFreq > k) {
+            while ((end - start + 1) - mostFreq > k) {
                 hm.put(arr[start], hm.get(arr[start]) - 1);
                 start++;
             }
